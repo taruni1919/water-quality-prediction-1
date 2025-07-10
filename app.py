@@ -9,7 +9,7 @@ import streamlit as st
 model = joblib.load("pollution_model.pkl")
 model_cols = joblib.load("model_columns.pkl")
 
-# Let's create an User interface
+#create an User interface
 st.title("Water Pollutants Predictor")
 st.write("Predict the water pollutants based on Year and Station ID")
 
